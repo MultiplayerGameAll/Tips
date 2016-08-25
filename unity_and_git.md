@@ -14,5 +14,5 @@ After do
 * git add *
 * git commit -m "First commit"
 * git remote add origin git@github.com:username/project.git #(verificar junto ao repositorio)
-* git push -u origin master
+* git push -u origin --all
 
