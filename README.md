@@ -1,4 +1,4 @@
 # Tips
 
-1. [unity_and_git](Unity and Git repositories)
+1. [Unity and Git repositories](unity_and_git)
 
