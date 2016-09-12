@@ -10,7 +10,18 @@ First, you have to make some configurations in the Unity project.
 After do
 
 * cd to/your/unity/project/folder
+* echo "# gps" >> README.md
 * git init
+<pre>
+echo .vs > .gitignore
+echo Library >> .gitignore
+echo Temp >> .gitignore
+echo *.apk >> .gitignore
+echo *.csproj >> .gitignore
+echo *.sln >> .gitignore
+
+</pre>
+
 * git add *
 * git commit -m "First commit"
 * git remote add origin git@github.com:username/project.git #(verificar junto ao repositorio)
