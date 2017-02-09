@@ -23,7 +23,7 @@ echo *.sln >> .gitignore
 git add *
 git commit -m "First commit"
 </pre>
-* Get the remote url of your repository. Example: git remote add origin git@github.com:username/project.git #(verify in your repository provider)
+* Get the remote url from your repository. Example: git remote add origin git@github.com:username/project.git #(verify in your repository provider)
 * Run: git push -u origin --all
 
 ## For clone project
