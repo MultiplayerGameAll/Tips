@@ -26,18 +26,20 @@ git commit -m "First commit"
 * Get the remote url from your repository. Example: **git remote add origin git@github.com:username/project.git** #(verify in your repository provider)
 * Run: **git push -u origin --all** for the first **push**.
 
-## For the clone project
+## For the "clone project" command
 
-**clone \<put the url here\>**
+<pre>
+clone &lt;put the url here&gt;
+</pre>
 
-## For send code to the server
+## For the "send code to server" commands
 <pre>
 git add *  --adicionar novos arquivos
 git commit -am "mensagem" -- faz o commit dos arquivos
 git push
 </pre>
 
-## For get code from the server
+## For the "get code from server" command
 <pre>
 git pull
 </pre>
