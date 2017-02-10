@@ -28,7 +28,7 @@ git commit -m "First commit"
 
 ## For the clone project
 
-**clone <put the url here>**
+**clone \<put the url here\>**
 
 ## For send code to the server
 <pre>
