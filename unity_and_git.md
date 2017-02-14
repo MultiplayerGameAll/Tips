@@ -19,6 +19,7 @@ echo Temp >> .gitignore
 echo *.apk >> .gitignore
 echo *.csproj >> .gitignore
 echo *.sln >> .gitignore
+echo /build >> .gitignore
 git add *
 git commit -m "First commit"
 </pre>
