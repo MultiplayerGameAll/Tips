@@ -20,9 +20,20 @@ echo *.apk >> .gitignore
 echo *.csproj >> .gitignore
 echo *.sln >> .gitignore
 echo /build >> .gitignore
+echo /.vscode >> .gitignore
+</pre>
+
+Bellow change projectName to your project name.
+<pre>
+ echo /projectName_Data >> .gitignore
+</pre>
+
+And run:
+<pre>
 git add *
 git commit -m "First commit"
 </pre>
+
 
 * Get the remote url from your repository. Example: **git remote add origin git@github.com:username/project.git** #(verify in your repository provider)
 * Run: **git push -u origin --all** for the first **push**.
